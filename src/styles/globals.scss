@@ -1,9 +1,10 @@
 @use "./reset";
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 html {
 	color-scheme: dark;
@@ -12,9 +13,8 @@ html {
 body {
 	color: var(--foreground);
 	background: var(--background);
-	font-family: Inter, Helvetica, sans-serif;
+	font-family: "Montserrat", sans-serif;
 	@extend %unscroll;
- 
 }
 
 .container {
@@ -47,21 +47,18 @@ body {
 	background-color: #ffffff !important;
 }
 
-
-
 @keyframes colorPulse {
-  0% {
-    color: rgb(96, 165, 255);
-  }
-  50% {
-    color: #ffffff;
-  }
-  100% {
-    color: rgb(96, 165, 255);
-  }
+	0% {
+		color: rgb(96, 165, 255);
+	}
+	50% {
+		color: #ffffff;
+	}
+	100% {
+		color: rgb(96, 165, 255);
+	}
 }
 
 .text-color-pulse {
-  animation: colorPulse 4s infinite ease-in-out;
+	animation: colorPulse 4s infinite ease-in-out;
 }
-

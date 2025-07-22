@@ -50,11 +50,11 @@ export default function QRGenerator() {
 			<Toaster position="top-center" />
 			<div className="container">
 				<div className="flex relative py-10 z-30 flex-col md:flex-row items-center justify-between md:gap-5 gap-10">
-					<div className="flex flex-col items-start gap-5 w-full max-w-[500px]">
+					<div className="flex flex-col items-start gap-5 w-full max-w-[550px]">
 						<TitleComponent className="text-[30px] md:text-[45px] text-color-pulse">
 							Добро пожаловать!
 						</TitleComponent>
-						<Description className="text-white">
+						<Description className="text-white leading-[145%]">
 							Создавайте уникальные QR-коды за считанные секунды. Введите текст,
 							ссылку или любую другую информацию — и мгновенно получите
 							результат. Сохраните QR-код или используйте его прямо на сайте.

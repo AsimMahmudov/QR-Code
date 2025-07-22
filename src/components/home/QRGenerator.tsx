@@ -87,7 +87,7 @@ export default function QRGenerator() {
 			)}
 
 			{showQR && (
-				<div className="mt-6 bg-white p-4 rounded shadow flex justify-center">
+				<div className="mt-5 bg-white p-4 rounded shadow flex justify-center">
 					<QRCode
 						value={value}
 						bgColor={bgColor}

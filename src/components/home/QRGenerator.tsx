@@ -80,7 +80,7 @@ export default function QRGenerator() {
 
 						<button
 							onClick={handleGenerate}
-							className="bg-blue-600 w-full md:max-w-[200px] max-w-full flex items-center gap-2 hover:bg-blue-700 text-white font-semibold px-5 py-2.5 rounded-lg shadow-sm shadow-transparent hover:shadow-lg hover:shadow-sky-500 duration-200 transform hover:-translate-y-0.5">
+							className="bg-blue-600 w-full  md:max-w-[200px] max-w-full flex justify-center items-center gap-2 hover:bg-blue-700 text-white font-semibold px-5 py-2.5 rounded-lg shadow-sm shadow-transparent hover:shadow-lg hover:shadow-sky-500 duration-200 transform hover:-translate-y-0.5">
 							Сгенерировать <MdOutlineQrCode />
 						</button>
 					</div>
